@@ -119,3 +119,43 @@ p {
 .images {
   display: flex;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+
+  .navigation-links {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+  .about-link,
+  .contact-link {
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .text-content {
+    font-size: 12px;
+    text-align: left;
+    width: fit-content;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .app-links {
+    display: block;
+    margin: 10px;
+  }
+}
